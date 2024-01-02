@@ -14,6 +14,7 @@ module.exports = {
 			"soft-green": "#a4fcc4",
 			"soft-red": "#f5c0be",
 			"soft-purple": "#ddc5fb",
+			"soft-dark": "#f5f5fa",
 		},
 	},
 	plugins: [],

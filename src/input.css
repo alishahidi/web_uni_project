@@ -10,8 +10,6 @@
 	text-align: right;
 }
 
-
-
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
@@ -30,16 +28,23 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #333 !important;
-  font-size: 20px !important;
-  font-weight: bold !important;
-  top: 36% !important;
+	color: #333 !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+	top: 36% !important;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
 	left: -3rem !important;
 }
 
-.swiper-button-next{
+.swiper-button-next {
 	right: -3rem !important;
+}
+.swiper-pagination-bullet {
+	background-color: gray !important;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #0e0e0e !important;
 }

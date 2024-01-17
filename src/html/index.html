@@ -1,232 +1,321 @@
 <!DOCTYPE html>
 <html dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header class="relative header h-[900px]">
-      <section
-        class="absolute top-0 right-0 flex-col justify-between w-full h-[800px] -z-10"
-      >
-        <div
-          class="head-top h-full bg-center bg-no-repeat bg-cover bg-[url('/dist/images/head-top.jpeg')]"
-        ></div>
-        <div
-          class="head-bottom w-full h-[300px] relative -top-[250px] bg-center bg-no-repeat bg-cover bg-[url('/dist/images/head-bottom.png')]"
-        ></div>
-      </section>
-      <nav
-        class="container px-36 flex items-center justify-between mx-auto p-8 mb-8"
-      >
-        <div class="flex gap-4">
-          <img src="/dist/images/logo.png" class="w-[40px] h-[50px]" />
-          <div class="flex flex-col">
-            <p class="text-primary font-bold text-2xl">نام کلینیک شما</p>
-            <p class="text-gray text-md mt-1">شعار مورد نظرشما...</p>
-          </div>
-        </div>
-        <div class="flex gap-10 items-center">
-          <div>صفحه نخست</div>
-          <div>ارتباط با ما</div>
-          <div>خدمات کلینیک</div>
-          <div>پزشکان ما</div>
-          <div>نوشته ها</div>
-          <div
-            class="py-2 px-6 text-center text-md w-[180px] text-white shadow-lg rounded-xl bg-secondary"
-          >
-            رزرو وقت
-          </div>
-        </div>
-        <div class="flex gap-4 items-center">
-          <div class="text-primary font-bold text-lg">۰۲۱-۱۲۳۴۵۶۷۸</div>
-          <div class="pt-2 px-2 bg-soft-gray rounded-xl">
-            <span class="text-secondary material-symbols-outlined"> call </span>
-          </div>
-        </div>
-      </nav>
-      <section
-        class="container px-36 items-center mx-auto flex justify-between header-content"
-      >
-        <div class="w-2/3">
-          <h3 class="text-secondary font-bold text-2xl mb-4">
-            بهترین پزشکان در کلینیک درمانی ما
-          </h3>
-          <h2 class="text-primary font-bold text-5xl leading-relaxed">
-            اینجا در کلینیک شبانه‌روزی<br />مراقب سلامتی شما هستیم
-          </h2>
-          <div
-            class="bg-orange text-white py-4 px-12 rounded-xl shadow-lg inline-block"
-          >
-            دپارتمان ها
-          </div>
-          <div class="mt-6 relative right-[300px]">
-            <img src="/dist/images/plus.png" />
-          </div>
-        </div>
-        <div class="relative w-1/3 flex flex-col justify-between h-[400px]">
-          <img src="/dist/images/hero.png" class="absolute top-0 left-0 z-10" />
-          <div class="w-full flex justify-start">
-            <img src="/dist/images/reactangle.png" class="" />
-          </div>
-          <div class="w-full flex justify-end">
-            <img
-              src="/dist/images/wave.png"
-              class="w-[140px] relative top-8 -left-10"
-            />
-          </div>
-        </div>
-      </section>
-    </header>
-    <section class="flex justify-between container mx-auto px-36 about">
-      <div class="w-[40%] grid gap-4 grid-cols-3">
-        <div class="h-[300px]">
-          <img
-            src="/dist/images/about-2.jpg"
-            class="w-full h-full object-cover rounded-tl-xl rounded-bl-xl rounded-br-xl"
-          />
-        </div>
-        <div class="h-[300px] col-span-2">
-          <img
-            src="/dist/images/about-1.jpg"
-            class="w-full h-full rounded-tl-xl rounded-bl-xl rounded-br-xl"
-          />
-        </div>
-        <div class="h-[300px] col-span-2">
-          <img
-            src="/dist/images/about-3.jpg"
-            class="w-full h-full rounded-tl-xl rounded-bl-xl rounded-br-xl"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="relative header h-[900px]">
+    <section class="absolute top-0 right-0 flex-col justify-between w-full h-[800px] -z-10">
+      <div class="head-top h-full bg-center bg-no-repeat bg-cover bg-[url('/dist/images/head-top.jpeg')]"></div>
+      <div
+        class="head-bottom w-full h-[300px] relative -top-[250px] bg-center bg-no-repeat bg-cover bg-[url('/dist/images/head-bottom.png')]">
+      </div>
+    </section>
+    <nav class="container px-36 flex items-center justify-between mx-auto p-8 mb-8">
+      <div class="flex gap-4">
+        <img src="/dist/images/logo.png" class="w-[40px] h-[50px]" />
+        <div class="flex flex-col">
+          <p class="text-primary font-bold text-2xl">نام کلینیک شما</p>
+          <p class="text-gray text-md mt-1">شعار مورد نظرشما...</p>
         </div>
       </div>
-      <div class="w-1/2 flex flex-col gap-4">
+      <div class="flex gap-10 items-center">
+        <div>صفحه نخست</div>
+        <div>ارتباط با ما</div>
+        <div>خدمات کلینیک</div>
+        <div>پزشکان ما</div>
+        <div>نوشته ها</div>
+        <div class="py-2 px-6 text-center text-md w-[180px] text-white shadow-lg rounded-xl bg-secondary">
+          رزرو وقت
+        </div>
+      </div>
+      <div class="flex gap-4 items-center">
+        <div class="text-primary font-bold text-lg">۰۲۱-۱۲۳۴۵۶۷۸</div>
+        <div class="pt-2 px-2 bg-soft-gray rounded-xl">
+          <span class="text-secondary material-symbols-outlined"> call </span>
+        </div>
+      </div>
+    </nav>
+    <section class="container px-36 items-center mx-auto flex justify-between header-content">
+      <div class="w-2/3">
+        <h3 class="text-secondary font-bold text-2xl mb-4">
+          بهترین پزشکان در کلینیک درمانی ما
+        </h3>
+        <h2 class="text-primary font-bold text-5xl leading-relaxed">
+          اینجا در کلینیک شبانه‌روزی<br />مراقب سلامتی شما هستیم
+        </h2>
+        <div class="bg-orange text-white py-4 px-12 rounded-xl shadow-lg inline-block">
+          دپارتمان ها
+        </div>
+        <div class="mt-6 relative right-[300px]">
+          <img src="/dist/images/plus.png" />
+        </div>
+      </div>
+      <div class="relative w-1/3 flex flex-col justify-between h-[400px]">
+        <img src="/dist/images/hero.png" class="absolute top-0 left-0 z-10" />
+        <div class="w-full flex justify-start">
+          <img src="/dist/images/reactangle.png" class="" />
+        </div>
+        <div class="w-full flex justify-end">
+          <img src="/dist/images/wave.png" class="w-[140px] relative top-8 -left-10" />
+        </div>
+      </div>
+    </section>
+  </header>
+  <section class="flex justify-between container mx-auto px-36 about">
+    <div class="w-[40%] grid gap-4 grid-cols-3">
+      <div class="h-[300px]">
+        <img src="/dist/images/about-2.jpg"
+          class="w-full h-full object-cover rounded-tl-xl rounded-bl-xl rounded-br-xl" />
+      </div>
+      <div class="h-[300px] col-span-2">
+        <img src="/dist/images/about-1.jpg" class="w-full h-full rounded-tl-xl rounded-bl-xl rounded-br-xl" />
+      </div>
+      <div class="h-[300px] col-span-2">
+        <img src="/dist/images/about-3.jpg" class="w-full h-full rounded-tl-xl rounded-bl-xl rounded-br-xl" />
+      </div>
+    </div>
+    <div class="w-1/2 flex flex-col gap-4">
+      <p class="text-orange font-bold text-xl">درباره ما</p>
+      <div class="flex gap-4 mt-2">
+        <h2 class="text-primary font-bold text-4xl leading-relaxed">
+          ​بزرگترين مركز پزشکی تهران<br />
+          ​​​​​​​تیتر مورد نظر شما در اینجا...
+        </h2>
+        <img src="/dist/images/balls.png" class="w-[55px] h-[55px]" />
+      </div>
+      <p class="text-gray text-lg mt-4">
+        من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با دوبار
+        کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.
+      </p>
+      <div class="grid grid-cols-2 gap-4 mt-4">
+        <div class="border-2 border-soft-blue rounded-xl px-6 py-3 flex items-center gap-4">
+          <img src="/dist/images/ambu.png" />
+          <p class="font-medium text-primary text-lg">آنبولانس خصوصی ما</p>
+        </div>
+        <div class="border-2 border-soft-green rounded-xl px-6 py-3 flex items-center gap-4">
+          <img src="/dist/images/bed.png" />
+          <p class="font-medium text-primary text-lg">امکانات بستری عالی</p>
+        </div>
+        <div class="border-2 border-soft-red rounded-xl px-6 py-3 flex items-center gap-4">
+          <img src="/dist/images/heal.png" />
+          <p class="font-medium text-primary text-lg">نسخه نویسی حرفه‌ای</p>
+        </div>
+        <div class="border-2 border-soft-purple rounded-xl px-6 py-3 flex items-center gap-4">
+          <img src="/dist/images/inject.png" />
+          <p class="font-medium text-primary text-lg">آزمایشگاه تخصصی</p>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="cursor-pointer px-10 py-3 bg-secondary text-white font-bold rounded-xl shadow-lg">
+          درباره ما
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative service bg-soft-dark flex h-[800px]">
+    <div class="absolute top-[19%] left-0 w-[40%] bg-secondary rounded-tr-[60px] rounded-br-[60px] h-[550px]"></div>
+    <div class="container flex mx-auto px-36 relative top-[32%]">
+      <div class="w-1/2 flex flex-col gap-4 pl-14">
         <p class="text-orange font-bold text-xl">درباره ما</p>
         <div class="flex gap-4 mt-2">
           <h2 class="text-primary font-bold text-4xl leading-relaxed">
-            ​بزرگترين مركز پزشکی تهران<br />
-            ​​​​​​​تیتر مورد نظر شما در اینجا...
+            ما در کلینیک خود این خدمات<br />
+            را به بیماران ارائه میدهیم
           </h2>
           <img src="/dist/images/balls.png" class="w-[55px] h-[55px]" />
         </div>
         <p class="text-gray text-lg mt-4">
-          من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با دوبار
-          کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.
+          من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با
+          دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.
         </p>
-        <div class="grid grid-cols-2 gap-4 mt-4">
-          <div
-            class="border-2 border-soft-blue rounded-xl px-6 py-3 flex items-center gap-4"
-          >
-            <img src="/dist/images/ambu.png" />
-            <p class="font-medium text-primary text-lg">آنبولانس خصوصی ما</p>
-          </div>
-          <div
-            class="border-2 border-soft-green rounded-xl px-6 py-3 flex items-center gap-4"
-          >
-            <img src="/dist/images/bed.png" />
-            <p class="font-medium text-primary text-lg">امکانات بستری عالی</p>
-          </div>
-          <div
-            class="border-2 border-soft-red rounded-xl px-6 py-3 flex items-center gap-4"
-          >
-            <img src="/dist/images/heal.png" />
-            <p class="font-medium text-primary text-lg">نسخه نویسی حرفه‌ای</p>
-          </div>
-          <div
-            class="border-2 border-soft-purple rounded-xl px-6 py-3 flex items-center gap-4"
-          >
-            <img src="/dist/images/inject.png" />
-            <p class="font-medium text-primary text-lg">آزمایشگاه تخصصی</p>
-          </div>
-        </div>
         <div class="flex">
-          <div
-            class="cursor-pointer px-10 py-3 bg-secondary text-white font-bold rounded-xl shadow-lg"
-          >
-            درباره ما
+          <div class="cursor-pointer px-10 py-3 bg-orange text-white font-bold rounded-xl shadow-lg">
+            مشاهده خدمات
           </div>
         </div>
       </div>
-    </section>
-    <section class="relative service bg-soft-dark flex h-[600px]">
-      <div
-        class="absolute top-[19%] left-0 w-[40%] bg-secondary rounded-tr-[60px] rounded-br-[60px] h-[550px]"
-      ></div>
-      <div class="container flex mx-auto px-36 relative top-[32%]">
-        <div class="w-1/2 flex flex-col gap-4 pl-14">
-          <p class="text-orange font-bold text-xl">درباره ما</p>
-          <div class="flex gap-4 mt-2">
-            <h2 class="text-primary font-bold text-4xl leading-relaxed">
-              ما در کلینیک خود این خدمات<br />
-              را به بیماران ارائه میدهیم
-            </h2>
-            <img src="/dist/images/balls.png" class="w-[55px] h-[55px]" />
-          </div>
-          <p class="text-gray text-lg mt-4">
-            من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با
-            دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.
-          </p>
-          <div class="flex">
-            <div
-              class="cursor-pointer px-10 py-3 bg-orange text-white font-bold rounded-xl shadow-lg"
-            >
-              مشاهده خدمات
-            </div>
+      <div class="w-1/2 relative">
+        <div class="swiper overflow-visible w-full h-[400px] slider">
+          <div class="swiper-wrapper relative" id="slider-wrapper">
+            <!-- Slider content will be dynamically added here -->
           </div>
         </div>
-        <div class="w-1/2 relative">
-          <div class="swiper overflow-visible w-full h-[400px] slider">
-            <div class="swiper-wrapper relative">
-              <div class="swiper-slide relative rounded-3xl">
-                <img src="/dist/images/slide-3.jpg" class="rounded-3xl" alt="">
-                <div class="absolute bottom-2 w-full flex flex-col items-center">
-                  <p class="text-white text-2xl">
-                    خدمت شماره دو
-                  </p>
-                  <p class="text-gray text-lg">
-                    توضیحات مورد نظر شما
-                  </p>
-                </div>
-              </div>
-              <div class="swiper-slide relative rounded-3xl">
-                <img src="/dist/images/slide-2.jpg" class="rounded-3xl" alt="">
-                <div class="absolute bottom-2 w-full flex flex-col items-center">
-                  <p class="text-white text-2xl">
-                    خدمت شماره دو
-                  </p>
-                  <p class="text-gray text-lg">
-                    توضیحات مورد نظر شما
-                  </p>
-                </div>
-              </div>
-              <div class="swiper-slide relative rounded-3xl">
-                <img src="/dist/images/slide-1.jpg" class="rounded-3xl" alt="">
-                <div class="absolute bottom-2 w-full flex flex-col items-center">
-                  <p class="text-white text-2xl">
-                    خدمت شماره دو
-                  </p>
-                  <p class="text-gray text-lg">
-                    توضیحات مورد نظر شما
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-[url('/dist/images/comments.png')] bg-center bg-no-repeat bg-cover w-full py-20">
+    <div class="w-full flex justify-between container px-36 mx-auto h-[500px]">
+      <div class="w-1/3">
+        <div class="relative">
+          <img src="/dist/images/comment-person.png" class="h-[500px]" alt="comment person">
+          <img src="/dist/images/plus.png" class="absolute top-14 left-0" alt="plus">
         </div>
       </div>
-    </section>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="/src/js/main.js"></script>
+      <div class="w-2/5 h-[500] flex flex-col gap-16 mt-20 mr-10">
+        <div class="flex items-center gap-5">
+          <div class="p-6 rounded-3xl shadow-2xl">
+            <img src="/dist/images/qoute.png" alt="qoute" />
+          </div>
+          <h2 class="font-bold text-4xl text-primary">نظرات مراجعه کنندگان</h2>
+        </div>
+        <div class="swiper w-full h-[160px] comment-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex flex-col gap-3">
+              <p class="text-orange text-center">علی شهیدی</p>
+              <p class="text-primary text-center">من خیلی راضی بودم. من یک پاراگراف هستم درمورد این بخش که شما می‌توانید
+                به راحتی
+                با دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.</p>
+            </div>
+            <div class="swiper-slide flex flex-col gap-3">
+              <p class="text-orange text-center">علی شهیدی</p>
+              <p class="text-primary text-center">من خیلی راضی بودم. من یک پاراگراف هستم درمورد این بخش که شما می‌توانید
+                به راحتی
+                با دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.</p>
+            </div>
+            <div class="swiper-slide flex flex-col gap-3">
+              <p class="text-orange text-center">علی شهیدی</p>
+              <p class="text-primary text-center">من خیلی راضی بودم. من یک پاراگراف هستم درمورد این بخش که شما می‌توانید
+                به راحتی
+                با دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.</p>
+            </div>
+          </div>
+          <div class="swiper-pagination mt-10"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full h-[650px] bg-soft-dark">
+    <div class="py-12 flex container px-36 mx-auto">
+      <div class="w-1/2 flex flex-col gap-5 items-center">
+        <div class="flex flex-col gap-2 w-full items-center">
+          <h4 class="text-orange font-bold">به سرعت با شما تماس خواهیم گرفت</h4>
+          <h3 class="text-primary text-4xl font-bold">رزرو آنلاین خدمات</h3>
+        </div>
+        <div class="relative w-[500px] h-[400px] border-2 border-primary rounded-3xl">
+          <div class="absolute top-10 right-10 w-[500px] h-[400px] rounded-3xl bg-white p-12 flex flex-col gap-3">
+            <select class="w-full border-secondary bg-white text-md border rounded-lg py-[6px] px-[8px] text-sm">
+              <option value="انتخاب کنید">انتخاب کنید</option>
+              <option value="نست">تست</option>
+            </select>
+            <input type="text" placeholder="نام شما"
+              class="w-full border-secondary bg-white text-md border rounded-lg py-[6px] px-[8px] text-sm">
+            <input type="number" placeholder="موبایل شما"
+              class="w-full border-secondary bg-white text-md border rounded-lg py-[6px] px-[8px] text-sm">
+            <textarea placeholder="پیام خود را اینجا بنویسید" rows="5"
+              class="w-full border-primary bg-white text-md border rounded-lg py-[6px] px-[8px] text-sm"></textarea>
+            <div class="flex justify-start mt-2">
+              <button class="px-6 py-2 bg-orange text-white rounded-xl">
+                ثبت اطلاعات
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 pr-5 pt-9">
+        <img src="/dist/images/contact.png" class="w-[500px]" />
+      </div>
+    </div>
+    <div class="container px-36 mx-auto w-full flex justify-start">
+      <img src="/dist/images/orange-balls.png" />
+    </div>
+  </section>
+  <section class="bg-[url('/dist/images/comments.png')] bg-center bg-no-repeat bg-cover w-full py-20">
+    <div class="py-12 flex flex-col container px-48 mx-auto">
+      <div class="flex flex-col gap-2 w-full items-center">
+        <h4 class="text-orange font-bold">آخرین مقالات</h4>
+        <h3 class="text-primary text-4xl font-bold">آخرین مطالب وبلاگ</h3>
+      </div>
+      <div class="grid gap-5 grid-cols-3 mt-10">
+        <div>
+          <img src="/dist/images/blog-1.jpeg" class="w-full h-[250px] rounded-3xl" alt="Blog Image 1" />
+          <div class="mt-2">
+            <p class="text-secondary">مطلب تستی شماره یک</p>
+            <p class="text-orange mt-1">۲۵ مهر ۰۰ </p>
+          </div>
+        </div>
+        <div>
+          <img src="/dist/images/blog-2.jpeg" class="w-full h-[250px] rounded-3xl" alt="Blog Image 2" />
+          <div class="mt-2">
+            <p class="text-secondary">مطلب تستی شماره دو</p>
+            <p class="text-orange mt-1">۲۵ مهر ۰۰ </p>
+          </div>
+        </div>
+        <div>
+          <img src="/dist/images/blog-3.jpeg" class="w-full h-[250px] rounded-3xl" alt="Blog Image 3" />
+          <div class="mt-2">
+            <p class="text-secondary">مطلب تستی شماره سه</p>
+            <p class="text-orange mt-1">۲۵ مهر ۰۰ </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-[url('/dist/images/footer.png')] h-[400px] bg-center bg-no-repeat bg-cover w-full py-20">
+    <div class="container px-36 py-6 mx-auto grid gap-5 grid-cols-12 mt-10">
+      <div class="col-span-3">
+        <div class="flex items-center gap-4">
+          <img src="/dist/images/logo.png" class="w-[35px] h-[40px]" />
+          <div class="flex flex-col">
+            <p class="text-primary font-bold text-xl">نام کلینیک شما</p>
+          </div>
+        </div>
+        <p class="text-sm text-gray mt-5">من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با دوبار کلیک
+          برروی من، استایل و ابعاد و... من
+          را
+          تغییر دهید.</p>
+        <div class="w-full flex flex-col items-center mt-3">
+          <div>
+            <p class="text-orange font-bold text-sm">تماس با ما</p>
+            <p class="text-primary font-bold text-md mt-1">۰۲۱-۱۲۳۴۵۶۷۸</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-2 flex flex-col gap-3">
+        <p class="text-primary font-bold text-xl">منوی سایت</p>
+        <div class="flex flex-col gap-3 pr-3">
+          <p class="text-orange text-sm"> صفحه نخست </p>
+          <p class="text-sm"> ارتباط با ما </p>
+          <p class="text-sm"> سوالات متداول </p>
+          <p class="text-sm"> نوبت دهی </p>
+          <p class="text-sm"> پزشکان ما </p>
+          <p class="text-sm"> آیتم جدید </p>
+        </div>
+      </div>
+      <div class="col-span-2 flex flex-col gap-3">
+        <p class="text-primary font-bold text-xl">خدمات ما</p>
+        <div class="flex flex-col gap-3 pr-3">
+          <p class="text-sm"> ارتباط با ما </p>
+          <p class="text-sm"> سوالات متداول </p>
+          <p class="text-sm"> نوبت دهی </p>
+          <p class="text-sm"> پزشکان ما </p>
+          <p class="text-sm"> آیتم جدید </p>
+        </div>
+      </div>
+      <div class="col-span-2 flex flex-col gap-3">
+        <p class="text-sm"> ارتباط با ما </p>
+        <p class="text-sm"> سوالات متداول </p>
+        <p class="text-sm"> نوبت دهی </p>
+        <p class="text-sm"> پزشکان ما </p>
+        <p class="text-sm"> آیتم جدید </p>
+      </div>
+      <div class="col-span-3">
+        <p class="text-primary font-bold text-xl">ما را دنبال کنید</p>
+        <p class="text-sm mt-2">در شبکه‌های اجتماعی ما را دنبال کنید</p>
+        <button class="w-full rounded-xl bg-secondary text-white px-10 py-2 mt-4 text-center">صفحه اینستاگرام</button>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/src/js/main.js"></script>
+
 </html>

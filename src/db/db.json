@@ -1,0 +1,22 @@
+{
+	"photos": [
+		{
+			"id": 1,
+			"title": "خدمت شماره یک",
+			"url": "/dist/images/slide-1.jpg",
+			"text": "توضیحات شما"
+		},
+		{
+			"id": 2,
+			"title": "خدمت شماره دو",
+			"url": "/dist/images/slide-2.jpg",
+			"text": "توضیحات شما"
+		},
+		{
+			"id": 3,
+			"title": "خدمت شماره سه",
+			"url": "/dist/images/slide-3.jpg",
+			"text": "توضیحات شما"
+		}
+	]
+}
